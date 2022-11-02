@@ -1,6 +1,5 @@
 {
     "name": "root",
-    "private": true,
     "scripts": {
         "clean": "lerna clean",
         "lint": "eslint --fix packages/**/*.js packages/**/bin/*"
