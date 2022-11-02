@@ -25,12 +25,13 @@
     "node": ">= 14.0.0"
   },
   "dependencies": {
-    "@clin211/cli-utils": "file:../utils",
+    "@clin211/cli-utils": "^0.0.2-alpha.0",
     "commander": "^9.4.0",
     "fs-extra": "^10.1.0",
     "inquirer": "^8.2.4",
     "leven": "^3.1.0",
     "minimist": "^1.2.6",
     "validate-npm-package-name": "^4.0.0"
-  }
+  },
+  "gitHead": "6c5e6e173cf72109c3f4e37b0f9578fc40e62998"
 }
