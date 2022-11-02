@@ -8,5 +8,4 @@ temp
 .version
 .versions
 .changelog
-package-lock.json
 .vscode
