@@ -1,0 +1,36 @@
+{
+  "name": "@clin211/cli",
+  "version": "0.0.0",
+  "description": "Command line tool to quickly generate project templates for development",
+  "author": "Forest <767425412lin@gmail.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "lib/cli.js",
+  "bin": {
+    "lin": "bin/lin.js"
+  },
+  "keywords": [
+    "clin",
+    "Forest",
+    "Forest cli",
+    "forest",
+    "forest cli",
+    "cli"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "engines": {
+    "node": ">= 14.0.0"
+  },
+  "dependencies": {
+    "@clin211/cli-utils": "file:../utils",
+    "commander": "^9.4.0",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^8.2.4",
+    "leven": "^3.1.0",
+    "minimist": "^1.2.6",
+    "validate-npm-package-name": "^4.0.0"
+  }
+}
