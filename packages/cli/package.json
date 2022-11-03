@@ -1,6 +1,6 @@
 {
   "name": "@clin211/cli",
-  "version": "0.0.5-alpha.0",
+  "version": "0.0.6-alpha.0",
   "description": "Command line tool to quickly generate project templates for development",
   "author": "Forest <767425412lin@gmail.com>",
   "homepage": "",
@@ -25,7 +25,7 @@
     "node": ">= 14.0.0"
   },
   "dependencies": {
-    "@clin211/cli-utils": "^0.0.5-alpha.0",
+    "@clin211/cli-utils": "^0.0.6-alpha.0",
     "commander": "^9.4.0",
     "fs-extra": "^10.1.0",
     "inquirer": "^8.2.4",
