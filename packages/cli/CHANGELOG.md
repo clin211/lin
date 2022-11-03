@@ -7,12 +7,8 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @clin211/cli
 
-
-
-
-
 # [0.1.0-alpha.0](https://github.com/Forest-211/lin/compare/v0.0.6-alpha.0...v0.1.0-alpha.0) (2022-11-03)
 
-### Features
+## Features
 
-* add release scripts ([b3e2aa3](https://github.com/Forest-211/lin/commit/b3e2aa32174fdd02acf97f32d925f1743fd2ff36))
+-   add release scripts ([b3e2aa3](https://github.com/Forest-211/lin/commit/b3e2aa32174fdd02acf97f32d925f1743fd2ff36))
