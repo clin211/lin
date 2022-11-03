@@ -3,7 +3,7 @@
 const program = require('commander');
 const { chalk, semver, logger } = require('@clin211/cli-utils');
 const pkgs = require('../package.json');
-const crn = require('../lib/crn');
+const crn = require('../lib/create-react-native');
 
 const { name, version, engines } = pkgs;
 
