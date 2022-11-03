@@ -33,5 +33,5 @@
     "minimist": "^1.2.6",
     "validate-npm-package-name": "^4.0.0"
   },
-  "gitHead": "553f9847915a1d60778cb77e2dd05233ff5643b7"
+  "gitHead": "cbc0d13a98f4535c2d59a54ad6e322f557e0f54d"
 }

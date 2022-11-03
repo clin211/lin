@@ -2,7 +2,9 @@
     "name": "root",
     "scripts": {
         "clean": "lerna clean",
-        "lint": "eslint --fix packages/**/*.js packages/**/bin/*"
+        "lint": "eslint --fix packages/**/*.js packages/**/bin/*",
+        "release-log": "lerna publish --conventional-commits",
+        "release-no": "lerna publish --conventional-commits --no-verify-access"
     },
     "workspaces": [
         "packages/*"
