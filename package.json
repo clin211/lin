@@ -3,6 +3,7 @@
     "scripts": {
         "clean": "lerna clean",
         "lint": "eslint --fix packages/**/*.js packages/**/bin/*",
+        "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
         "release-log": "lerna publish --conventional-commits",
         "release-no": "lerna publish --conventional-commits --no-verify-access"
     },
