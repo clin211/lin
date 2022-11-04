@@ -1,6 +1,6 @@
 {
     "name": "@clin211/cli",
-    "version": "0.1.0-alpha.3",
+    "version": "0.1.1-alpha.0",
     "description": "Command line tool to quickly generate project templates for development",
     "author": "Forest <767425412lin@gmail.com>",
     "homepage": "https://github.com/Forest-211/lin.git",
