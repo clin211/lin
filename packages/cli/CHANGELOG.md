@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.1.0-alpha.4](https://github.com/Forest-211/lin/compare/v0.1.0-alpha.3...v0.1.0-alpha.4) (2022-11-04)
+
+
+### Features
+
+* add translate command ([7744ec6](https://github.com/Forest-211/lin/commit/7744ec6e0e7ae1efff15679d90ed39d77d7718af))
+
+
+
+
+
 # [0.1.0-alpha.3](https://github.com/Forest-211/lin/compare/v0.1.0-alpha.2...v0.1.0-alpha.3) (2022-11-03)
 
 **Note:** Version bump only for package @clin211/cli

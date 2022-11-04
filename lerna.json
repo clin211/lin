@@ -2,6 +2,9 @@
     "$schema": "node_modules/lerna/schemas/lerna-schema.json",
     "useNx": true,
     "useWorkspaces": true,
-    "version": "0.1.0-alpha.3",
-    "packages": ["packages/cli", "packages/utils"]
+    "version": "0.1.0-alpha.4",
+    "packages": [
+        "packages/cli",
+        "packages/utils"
+    ]
 }
