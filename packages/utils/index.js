@@ -5,6 +5,7 @@ const fs = require('fs-extra');
 const semver = require('semver');
 const inquirer = require('inquirer');
 const sortJson = require('sort-json');
+const dayjs = require('dayjs');
 const env = require('./lib/env');
 const exit = require('./lib/exit');
 const logger = require('./lib/logger');
@@ -109,5 +110,6 @@ module.exports = {
     userHome,
     configPath,
     sortJson,
+    dayjs,
     defaultSortJson,
 };

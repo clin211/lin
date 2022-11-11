@@ -6,6 +6,7 @@ const config = require('./config');
 const crn = require('./crn');
 const translate = require('./translate');
 const image = require('./images');
+const time = require('./time');
 
 const { name, engines } = pkgs;
 
@@ -39,6 +40,9 @@ function run() {
 
     // image
     program.addCommand(image());
+
+    // time
+    program.addCommand(time());
 
     program.parse(process.argv);
 }
