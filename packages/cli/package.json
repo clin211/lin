@@ -23,7 +23,7 @@
         "node": ">= 14.0.0"
     },
     "dependencies": {
-        "@clin211/cli-utils": "^0.1.0-alpha.4",
+        "@clin211/cli-utils": "0.1.1-alpha.0",
         "commander": "^9.4.0",
         "crypto-js": "^4.1.1",
         "deepl-node": "^1.7.1",
@@ -31,6 +31,7 @@
         "inquirer": "^8.2.4",
         "leven": "^3.1.0",
         "minimist": "^1.2.6",
+        "tinify": "^1.7.1",
         "validate-npm-package-name": "^4.0.0"
     },
     "gitHead": "9b333e882cdefbe4596a123ad833b3d03c9454db"

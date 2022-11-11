@@ -7,7 +7,12 @@ const {
     inquirer,
     trim,
 } = require('@clin211/cli-utils');
-const { YOUDAO_AUTHORIZATION_KEY, DEEPL_AUTHORIZATION_KEY, USE_TRANSLATE } = require('./constant');
+const {
+    YOUDAO_AUTHORIZATION_KEY,
+    DEEPL_AUTHORIZATION_KEY,
+    USE_TRANSLATE,
+    TINIFY_AUTHORIZATION_KEY,
+} = require('./constant');
 
 // check the secret keys of Youdao or deepl
 async function checkAuthorizationKey() {
@@ -33,7 +38,6 @@ async function checkAuthorizationKey() {
 
 // configure deepl or Youdao secret key
 async function setAuthorizationKey(options) {
-    console.log('options:', options);
     if (!fs.existsSync(configPath)) {
         fs.writeFileSync(configPath, '{}');
     }
@@ -74,6 +78,10 @@ async function setAuthorizationKey(options) {
 
     if (options.deepl) {
         data[DEEPL_AUTHORIZATION_KEY] = options.deepl;
+    }
+
+    if (options.tinify) {
+        data[TINIFY_AUTHORIZATION_KEY] = options.tinify;
     }
 
     if (options.use) {

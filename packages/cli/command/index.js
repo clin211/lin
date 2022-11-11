@@ -2,9 +2,10 @@ const { Command } = require('commander');
 const { chalk, semver } = require('@clin211/cli-utils');
 const pkgs = require('../package.json');
 const version = require('./version');
-const configCommand = require('./config');
+const config = require('./config');
 const crn = require('./crn');
 const translate = require('./translate');
+const image = require('./images');
 
 const { name, engines } = pkgs;
 
@@ -28,13 +29,16 @@ function run() {
     version(program);
 
     // register the config command
-    program.addCommand(configCommand());
+    program.addCommand(config());
 
     // create react native
     crn(program);
 
     // translate
     translate(program);
+
+    // image
+    program.addCommand(image());
 
     program.parse(process.argv);
 }

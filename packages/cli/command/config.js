@@ -21,6 +21,7 @@ function makeConfigCommand() {
             )}`,
             validate.verifyNotNull,
         )
+        .option('--tinify, tinify <string>', 'The secret key to tinify', validate.verifyNotNull)
         .option(
             `--use, use <string>`,
             `What tools to use for translation, default use ${chalk.blueBright(

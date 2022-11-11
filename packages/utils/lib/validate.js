@@ -96,6 +96,24 @@ const verifyIsZH = value => {
     return regexp.test(value);
 };
 
+const verifyImageFile = value => {
+    const ext = ['.jpg', '.jpeg', '.png', '.GIF', '.JPG', '.PNG', '.webp'];
+    if (ext.filter(item => value.endsWith(item)).length <= 0) {
+        throw new Error('Upload supported files!');
+    }
+    return value;
+};
+
+const isNullOrNotString = value => {
+    if (!value) {
+        throw new Error('Parameters cannot be empty!');
+    }
+    if (typeof value !== 'string') {
+        throw new Error('The parameter must be a string!');
+    }
+    return value;
+};
+
 module.exports = {
     validate,
     validateSync,
@@ -104,4 +122,6 @@ module.exports = {
     verifyLanguage,
     verifyNotNull,
     verifyIsZH,
+    verifyImageFile,
+    isNullOrNotString,
 };
