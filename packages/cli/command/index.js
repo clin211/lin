@@ -7,6 +7,7 @@ const crn = require('./crn');
 const translate = require('./translate');
 const image = require('./images');
 const time = require('./time');
+const calculate = require('./calculate');
 
 const { name, engines } = pkgs;
 
@@ -37,6 +38,9 @@ function run() {
 
     // translate
     translate(program);
+
+    // calculate
+    calculate(program);
 
     // image
     program.addCommand(image());
